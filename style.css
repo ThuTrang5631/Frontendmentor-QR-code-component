@@ -1,0 +1,37 @@
+body {
+  background-color: hsl(212, 45%, 89%);
+  min-height: 100vh;
+}
+
+.qrcode__wrap {
+  border-radius: 15px;
+  width: 85%;
+}
+
+.qrcode__img img {
+  object-fit: cover;
+}
+
+.qr__title {
+  font-size: 20px;
+  font-weight: 700;
+  font-family: "Outfit", sans-serif;
+  color: hsl(218, 44%, 22%);
+}
+
+.qr__content {
+  font-family: "Outfit", sans-serif;
+  max-width: 260px;
+}
+
+.qr__desc {
+  font-size: 15px;
+  font-weight: 400;
+  color: hsl(220, 15%, 55%);
+}
+
+@media only screen and (min-width: 768px) {
+  .qrcode__wrap {
+    width: 50%;
+  }
+}
